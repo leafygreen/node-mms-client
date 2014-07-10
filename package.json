@@ -1,0 +1,31 @@
+{
+  "name": "node-mms-client",
+  "version": "0.0.1",
+  "description": "A wrapper for the MMS Public API",
+  "main": "./lib/mms.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leafygreen/node-mms-client"
+  },
+  "keywords": [
+    "mms"
+  ],
+  "author": "Dennis Kuczynski",
+  "contributors": [
+    {
+      "name": "Dennis Kuczynski"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leafygreen/node-mms-client/issues"
+  },
+  "dependencies": {
+    "q": "~0.9.6",
+    "lazy.js": "~0.3.2",
+    "inflection": "~1.2.6",
+    "concat-stream": "~1.1.0",
+    "path-proxy": "~1.0",
+    "node-uuid": "^1.4.1"
+  }
+}
