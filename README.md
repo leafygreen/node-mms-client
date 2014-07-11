@@ -6,6 +6,14 @@ This project is inspired by the work Heroku is doing their public API.
 * https://blog.heroku.com/archives/2014/1/8/json_schema_for_heroku_platform_api
 * https://github.com/jclem/node-heroku-client
 
+## Documentation
+
+TODO
+
+## Examples
+
+[test.js](/test.js)
+
 
 ## License
 Licensed under the [MIT license](LICENSE-MIT "MIT License").
