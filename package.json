@@ -8,7 +8,8 @@
     "url": "https://github.com/leafygreen/node-mms-client"
   },
   "keywords": [
-    "mms"
+    "mms",
+    "api"
   ],
   "author": "dennis.kuczynski@gmail.com",
   "license": "MIT",
