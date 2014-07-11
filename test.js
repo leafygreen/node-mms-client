@@ -6,9 +6,9 @@ var mms = new MMS({
 });
 
 /*
-// This one's a bit of a hack
+
 console.log("Get Root Data");
-mms.get('', function(err, resp) {
+mms.root().info(function(err, resp) {
   if (err) {
     console.log(err);
   } else {
@@ -181,8 +181,6 @@ var users = mms.groups("51b9361d5ae9048f0aab01f4").hosts("b511939ab50eab73579ee2
   }
 });
 
-*/
-
 console.log("Attempting to list clusters in group");
 var users = mms.groups("51b9361d5ae9048f0aab01f4").clusters().list(function(err, resp) {
   if (err) {
@@ -191,8 +189,6 @@ var users = mms.groups("51b9361d5ae9048f0aab01f4").clusters().list(function(err,
     console.log(resp);
   }
 });
-
-/*
 
 console.log("Attempting to list cluster in group");
 var users = mms.groups("51b9361d5ae9048f0aab01f4").clusters("51b9455ce4b0747b16f1b24d").info(function(err, resp) {
